@@ -1,4 +1,4 @@
 FROM tomcat:9.0
-COPY Academicoutcomereview.war /usr/local/tomcat/webapps/
-EXPOSE 8081
+COPY ROOT.war /usr/local/tomcat/webapps/
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
